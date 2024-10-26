@@ -156,3 +156,5 @@ axs[-1, -1].axis('off')
 plt.tight_layout()
 plt.savefig("edge_detection_experiment_results_with_labels.png")
 plt.show()
+
+print(metrics_df_sorted)
